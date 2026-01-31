@@ -3,39 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="midea/imagens/favicon.ico" type="image/x-icon">
     <title>Portfólio progressivo</title>
+    <link rel="stylesheet" href="styleIndex.css">
 </head>
 <body>
-    <h1>Minhas redes sociais</h1>
-    <h2>Quem sou eu?</h2>
-    <img src="imagens/eu.png" alt="Gabriel Barcelos">
-    
-    <p>Meu nome é <strong>Gabriel Barcelos</strong>, sou estusiasta e estudante de programação. No momento em que escrevo este documento, ja estou com conhecimento avançado em Python, e estudando arduamente HTML, CSS e Java-script. Tendo começado os estudos em programação em 2020. Porém minha carreira na área da tecnologia se origina desde meus 8 anos, resolvendo problemas da família no setor tecnologico</p>
+    <header style="padding-bottom: 120px;">
+        <nav>
+            <a href="contato.html" target="_self" rel="next"><img src="midea/imagens/contato.png" alt="Contato"> Contato</a>
+            <a href="https://github.com/gabbarcel" target="_blank" rel="external"><img src="midea/imagens/icone-github.png" alt="Meus projetos"> Meus projetos</a>
+            <a href="projetosWeb.html" target="_self" rel="next"> <img src="midea/imagens/global.png" alt="Página projetos web"> Projetos Web</a>
+        </nav>
+        <img src="midea/imagens/eu.png" alt="Gabriel" id="MinhaFoto">
+        <h1 class="principal">Gabriel Barcelos</h1>
+        <h2 id="cargo">Futuro Dev Fullstack</h2>
+        <div class="DownloadButton">
+            <a href="midea/docs/Gabriel_Barcelos.pdf" download="Gabriel_Barcelos.pdf" rel="author"> <button id="downloadButton">Baixar CV</button></a>
+        </div>
+    </header>
+    <main>
+        <div class="AboutMe">
+            <h1>Sobre mim</h1>
+            <p>Sou estudante de programação com experiência prática em <strong>Python</strong>, criando ferramentas como geradores de CPF, validador de cartões, apps de cotações via API e criadores de senhas seguras. Estou iniciando minha transição para o desenvolvimento web fullstack, mantendo meu foco em algoritmos, resolução de problemas e <strong>interfaces gráficas</strong>. Organizado e atento à teoria, busco aprender de forma consistente e construir projetos que unam funcionalidade e eficiência, com o objetivo de evoluir para back-end ou análise de dados no futuro.</p>
+        </div>
 
-        <!--Contatos-->
-    
-    <h2>Como falar comigo?</h2>
+        <div class="technologies">
+    <h1>Principais ferramentas do meu dia a dia</h1>
     <ul>
-        <li>
-            <p><a href="https://github.com/GABBARCEL" target="_blank" rel="external"> <img src="imagens/icone-github.png" alt="GitHub">/GABBARCEL </a> - Acesse meu repositório no GitHub!</p>
+        <li class="tech-item">
+            <div class="tech-text">
+                <h2>Python</h2>
+                <p>
+                    Com Python, tenho familiaridade e bastante dominância, sendo minha
+                    primeira linguagem dominada. Atualmente estudo POO, modularização
+                    avançada e criação de projetos completos.
+                </p>
+            </div>
+            <img src="midea/imagens/tech/python.png" alt="Python" class="tech-logo">
         </li>
 
-        <li>
-            <p><a href="https://instagram.com/gabbarcel" target="_blank" rel="external"> <img src="imagens/icone-instagram.png" alt="Instagram">/gabbarcel </a> - Acesse meu instagram</p>
+        <li class="tech-item reverse">
+            <div class="tech-text">
+                <h2>HTML5 & CSS3</h2>
+                <p>
+                    Esta página foi desenvolvida apenas com HTML e CSS.
+                    Futuramente pretendo iniciar projetos web mais completos.
+                </p>
+            </div>
+            <img src="midea/imagens/tech/html-css.png" alt="HTML e CSS" id="html">
         </li>
-            
-        <li>
-            <p><a href="https://linkedin.com/in/gabriel-barcel0s" target="_blank" rel="external"> <img src="imagens/icone-linkedin.png" alt="LinkedIn">/gabbarcel </a> - Acesse meu LinkedIn</p>
+
+        <li class="tech-item">
+            <div class="tech-text">
+                <h2>JavaScript</h2>
+                <p>
+                    Ainda em fase inicial, focando nos fundamentos
+                    para desenvolvimento web.
+                </p>
+            </div>
+            <img src="midea/imagens/tech/js.png" alt="JavaScript" class="tech-logo">
+        </li>
+
+        <li class="tech-item reverse">
+            <div class="tech-text">
+                <h2>Git</h2>
+                <p>
+                    Utilizo Git para versionamento de projetos e materiais de estudo,
+                    com boa prática nos principais fluxos de trabalho.
+                </p>
+            </div>
+            <img src="midea/imagens/tech/git.png" alt="Git" class="tech-logo">
         </li>
     </ul>
-
-    <h2>Novidades!</h2>
-    <ul>
-        
-        <li>Último Projeto: <a href="https://github.com/GABBARCEL/Payload_PixCopiaECola" target="_blank" rel="external">Gerador Pix copia e cola &lpar;Payload&rpar;</a>  - <strong>NOVO!</strong></li>
-        <li>Projeto recente: <a href="https://github.com/GABBARCEL/Validador-de-cartoes" target="_blank" rel="external">Validador de cartões</a></li>
-        <li>Confira também: <a href="https://github.com/GABBARCEL" target="_blank" rel="external">Todos os projetos no GitHub!</a> - 10/01/2026</li>
-    </ul>
+</div>
+    </main>
+    <footer>
+        <p>Desenvolvido com carinho por <strong>Gabriel Barcelos</strong> em 2026 </p>
+        <p>&#x2764;</p>
+    </footer>
 </body>
 </html>
