@@ -1,7 +1,9 @@
 @charset "UTF-8";
-
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 body {
+    margin: 0px;
+    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #131414;
 }
@@ -11,7 +13,8 @@ h1 {
 }
 
 header {
-    width: 100%;
+    margin-right: 5px;
+    margin-left: 5px;
     background-color: rgb(47, 47, 47);
     border: 0px;
     border-radius: 20px;
@@ -22,10 +25,10 @@ main {
 }
 
 footer {
-    width: 100%;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 1px;
     background-color: rgb(47, 47, 47);
-    border: 0px;
+    display: block;
 }
 
 footer > p {
@@ -36,7 +39,7 @@ footer > p {
 nav a > img {
     vertical-align: middle;
     width: 23px;
-    padding: 1px;
+    padding: 0px;
 }
 
 nav {
@@ -44,51 +47,89 @@ nav {
     padding-left: 50px;
 }
 
-nav > a{
-    padding: 5px;
+nav > a {
+    padding: 10px;
     font-family: monospace;
     text-decoration: none;
     font-weight: bolder;
 }
 
-#MinhaFoto {
-    width: 250px;
-    display: flex;
-    margin: auto;
-    padding-top: 170px;
+nav > p {
+    display: inline-block;
+    font-size: 1.5em;
 }
 
-#downloadButton {
-    background-color: yellowgreen;
-    display: flex;
-    height: 40px;
-    width: 150px;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.7em;
-}
-
-.principal {
-    text-align: center;
-    font-size: 3em;
-    color: rgb(230, 40, 40);
-}
-
-#cargo {
-    text-align: center;
-    font-size: 2;
-    color: rgb(68, 48, 217);
-    margin-top: 0px;
-    font-weight: bolder;
+nav > a > img {
+    padding-right: 10px;
 }
 
 a {
+    font-size: 1.5em;
     color: #fd2020;
 }
 
 a:hover {
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bolder;
     color: #86004C;
+}
+
+#MinhaFoto {
+    padding-top: 50px;
+    width: 250px;
+    display: flex;
+    margin: auto;
+}
+
+#downloadButton {
+    background-color: yellowgreen;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+#downloadButton:hover {
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bolder;
+    color: #86004C;
+}
+
+#ButtonBox {
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+#PageName {
+    font-family: "JetBrains Mono";
+    font-weight: bolder;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 2.4em;
+}
+
+#cargo {
+    font-family: "jetBrains Mono";
+    text-align: center;
+    font-size: 2em;
+    color: rgb(68, 48, 217);
+    font-weight: bolder;
+    margin-top: 0px;
+}
+
+.principal {
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 4em;
+    color: rgb(230, 40, 40);
 }
 
 .AboutMe {
