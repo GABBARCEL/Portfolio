@@ -1,0 +1,158 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #131414;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    color: #DF65AA;
+}
+
+a:hover {
+    color: #86004C;
+}
+
+header {
+    padding-bottom: 48px;
+    background-color: rgb(47, 47, 47);
+    border: 0px;
+    border-radius: 20px;
+}
+
+header > h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: #fd2020;
+    font-size: 3.8em;
+}
+
+header > p {
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+}
+
+h2 {
+    color: #CB1A7E;
+}
+
+p {
+    color: #FD8420
+}
+
+nav {
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+nav > a{
+    padding: 5px;
+    font-family: monospace;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+/* FIM DA SESSÃO LIMPA */
+
+main {
+    background-color: #000000;
+    border-radius: 10px;
+    padding-bottom: 150px;
+    font-family: "Jetbrains Mono";
+}
+
+footer {
+    padding-top: 10px;
+    padding-bottom: 1px;
+    background-color: rgb(47, 47, 47);
+    display: block;
+}
+
+footer > p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.importante {
+    display: flex;
+    background-color: #000000;
+    border-radius: 10px;
+    font-size: 1.5em;
+    padding: 5px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.importante > p {
+    color: #ED2100;
+}
+
+#TituloCimaProjetos {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.IconTech {
+    margin-left: 50px;
+    width: 40px;
+    margin-bottom: -8px;
+}
+
+/* PROJETOS */
+
+.Projeto {
+    background-color: #131414;
+    margin: 100px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.Projeto > h3 {
+    font-size: 3em;
+    text-align: center;
+}
+.Projeto > p {
+    font-size: 1.5em;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+    /* BOTÕES */
+.ButtonGitHub{
+    margin-left: 50px;
+    font-size: 1.7em;
+    background-color: #9acd32;
+}
+.ButtonGitHub:hover {
+    background-color: #7da729;
+}
+.ButtonDownload {
+    margin-left: 50px;
+    font-size: 1.7em;
+    background-color: #808080;
+}
+.ButtonDownload:hover {
+    background-color: #606060;
+}
+.Projeto > button > a {
+    color: #000000;
+    text-decoration: none;
+}
+
+    /* ICONES DOS BOTÕES */
+.IconGitHub {
+    margin-right: 10px;
+}
+.IconDownload {
+    margin-right: 10px;
+}

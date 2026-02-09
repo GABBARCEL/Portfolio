@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleProjetos.css">
+    <title>Meus projetos</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" target="_self" rel="prev"> &lt; Início</a>
+        </nav>
+        <h1>Meus Projetos</h1>
+    </header>
+    <p style="text-align: justify; font-size: 1.2em; margin: 40px; ">Aqui estão os projetos que eu fiz de forma indepedente, conforme vou criando novos projetos, vou colocando aqui! Abaixo estão os projetos que públiquei, você pode fazer o download do projeto (certifique-se de ter as ferramentas, bibliotecas e compiladores neccessários para o uso), ou pode apenas visualizar o código pelo GitHub. Sinta-se a vontade para abrir uma ussie, ou caso queira dar uma dica ou conversar de forma mais privada, entre em contato comigo clicando <a href="contato.html">AQUI!</a> </p>
+    <div class="importante">
+        <p style="margin: 40px;"><strong>Lembrando que os projetos web ficam em outro lugar. Você pode acessar meus projetos web clicando <a href="projetosWeb.html">AQUI!</a></strong></p>
+    </div>
+    <main>
+                                    <!-- Efetivamente a lista de projetos -->
+        <section id="TituloCimaProjetos">
+            <h2 style="text-align: center; font-size: 4em; font-family: Jetbrains Mono;">Lista de Projetos</h2>
+        </section>
+
+        <!-- projeto 1 -->
+        <section class="Projeto">
+            <h3>Payload pix com chave Copia e Cola</h3>
+            <p>Uma payload simples que gera um QRcode de pagamento via pix. Os valores de entrada para geração do QRcode são: nome, cidade, valor, chave pix e o identificador. Sendo obrigatórios todos os valores com exceção do identificador. O programa é modulazirado em três partes, sendo: main.py (responsável pela coleta e verefocação dos dados e exibição na GUI), link.py (responsável por criar o link para pagamento com os dados coletados e vereficados, a chave pix já funciona aqui) e genQrCode (responsável por gerar o QRcode com o link gerado pelo link.py). Há poucas funcionalidade para adicionar futuramente.</p>
+            <button class="ButtonGitHub">
+                <a href="https://github.com/GABBARCEL/Payload_PixCopiaECola" target="_blank" rel="external"><img src="midea/imagens/icone-github.png" alt="GitHub" class="IconGitHub">Veja no GitHub</a>
+            </button>
+
+            <button class="ButtonDownload">
+                <a href="midea/docs/Projetos/PayLoad-GABBARCEL.zip" download="PayLoad-GABBARCEL.zip" rel="author"><img src="midea/imagens/download-icon.webp" alt="Download" class="IconDownload">Download do projeto</a>
+            </button>
+            <img src="midea/imagens/tech/python.png" alt="Python" class="IconTech">
+        </section>
+            <!-- projeto 2 -->
+        <section class="Projeto">
+            <h3 class="">Validador de catões</h3>
+            <p>Programa único que recebe o número do cartão bancário via terminal e retorna se o cortão é matematicamente válido. Ele retorna também a bandeira do cartão baseado na composição e a quantidades de caracteres do número fornecido, sendo capaz de identificar as seguites bandeiras: Visa, Mastercard, American Express, Discover e Diners Club. O código conta com uma vereficação robusta de tipo e quantidade de caracteres. Pretendo colocar um GUI no projeto futuramente.</p>
+            <button class="ButtonGitHub">
+                <a href="https://github.com/GABBARCEL/Validador-de-cartoes" target="_blank" rel="external"><img src="midea/imagens/icone-github.png" alt="GitHub" class="IconGitHub">Veja no GitHub</a>
+            <button class="ButtonDownload">
+                <a href="midea/docs/Projetos/VereficadorDeCatões-GABBARCEL.zip" download="VereficadorDeCatões-GABBARCEL.zip" rel="author"><img src="midea/imagens/download-icon.webp" alt="Download" class="IconDownload">Download do projeto</a>
+            </button>
+            <img src="midea/imagens/tech/python.png" alt="Python" class="IconTech">
+        </section>
+        <!-- projeto 3 -->
+        <section class="Projeto">
+            <h3>Gerador de CPFs</h3>
+            <p>Um gerador de CPFs válidos matematicamente, feito em Python. Este projeto gera números aleatórios e calcula os dígitos verificadores corretamente, sem depender de CPFs reais. Ideal para testes, simulações e aprendizado. Particularmente, foi o projeto que mais gostei de fazer. Ele foi muito desafiador! Futuramente quero usar esse projeto como base para outro, que ira juntar este projeto e o <strong>validador de CPFs.</strong></p>
+            <button class="ButtonGitHub">
+                <a href="https://github.com/GABBARCEL/GeradorDeCPF" target="_blank" rel="external"><img src="midea/imagens/icone-github.png" alt="GitHub" class="IconGitHub">Veja no GitHub</a>
+            <button class="ButtonDownload">
+                <a href="midea/docs/Projetos/GeradorDeCPF-GABBARCEL.zip" download="GeradorDeCPF-GABBARCEL.zip" rel="author"><img src="midea/imagens/download-icon.webp" alt="Download" class="IconDownload">Download do projeto</a>
+            </button>
+            <img src="midea/imagens/tech/python.png" alt="Python" class="IconTech">
+        </section>
+        <!-- projeto 4 -->
+        <section class="Projeto">
+            <h3>Vereficador de CPFs</h3>
+            <p>Programa modular em duas partes, sendo: functions.py (parte responsável por relizar os calculos de vereficação do CPF, e somente a vereficação se ele é válido) e main.py (responsável por criar o GUI e filtrar somente o dado válido para vereficação). Já considero o projeto finalizado.</p>
+            <button class="ButtonGitHub">
+                <a href="https://github.com/GABBARCEL/Validador_de_CPFs" target="_blank" rel="external"><img src="midea/imagens/icone-github.png" alt="GitHub" class="IconGitHub">Veja no GitHub</a>
+            <button class="ButtonDownload">
+                <a href="midea/docs/Projetos/VereficadorDeCPF-GABBARCEL.zip" download="VereficadorDeCPF-GABBARCEL.zip" rel="author"><img src="midea/imagens/download-icon.webp" alt="Download" class="IconDownload">Download do projeto</a>
+            </button>
+            <img src="midea/imagens/tech/python.png" alt="Python" class="IconTech">
+        </section>
+        <!-- projeto 5 -->
+        <section class="Projeto">
+            <h3>Gerador de senhas aleatórias</h3>
+            <p>Um programa simples que gera senhas aleatórias, podendo personalizar vários aspectos da senha gerada. Aqui eu uso a própria biblioteca random do python, portanto caso queira usa-lo, basta ter o python instalado no dispositivo. Pretendo futuramente colocar um GUI no projeto. O documento está muito bem documentado.</p>
+            <button class="ButtonGitHub">
+                <a href="https://github.com/GABBARCEL/Gerador-de-senhas" target="_blank" rel="external"><img src="midea/imagens/icone-github.png" alt="GitHub" class="IconGitHub">Veja no GitHub</a>
+            <button class="ButtonDownload">
+                <a href="midea/docs/Projetos/GeradorDeSenhas-GABBARCEL.zip" download="GeradorDeSenhas-GABBARCEL.zip" rel="author"><img src="midea/imagens/download-icon.webp" alt="Download" class="IconDownload">Download do projeto</a>
+            </button>
+            <img src="midea/imagens/tech/python.png" alt="Python" class="IconTech">
+        </section>
+        <!-- Projeto 6 -->
+        <section class="Projeto">
+            <h3>Cotações com GUI</h3>
+            <p>É um programa modular com duas partes, sendo: get.py (responsável por fazer uma requisição a uma API pública, retornar os dados requeridos e processar eles) e o app.py (responsável por pegar os dados do get.py e exibir no GUI). Futuramente quero retomar o projeto e colocar mais opções de moedas, tanto na compra quanto na venda, pois por enquanto ele só funciona com BRL &rAarr; DLR ou EUR.</p>
+            <button class="ButtonGitHub">
+                <a href="https://github.com/GABBARCEL/gui-cotacoes" target="_blank" rel="external"><img src="midea/imagens/icone-github.png" alt="GitHub" class="IconGitHub">Veja no GitHub</a>
+            <button class="ButtonDownload">
+                <a href="midea/docs/Projetos/CotacoesGUI-GABBARCEL.zip" download="CotacoesGUI-GABBARCEL.zip" rel="author"><img src="midea/imagens/download-icon.webp" alt="Download" class="IconDownload">Download do projeto</a>
+            </button>
+            <img src="midea/imagens/tech/python.png" alt="Python" class="IconTech">
+        </section>
+        </section>
+    </main>
+    <p style="text-align: center;">Acabou ;^)</p>
+    <footer>
+        <p>Desenvolvido com carinho por <strong>Gabriel Barcelos</strong> em 2026 </p>
+        <p>&#x2764;</p>
+    </footer>
+</body>
+</html>
